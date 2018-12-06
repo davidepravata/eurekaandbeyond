@@ -3,7 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/eurekaandbeyond.iml" filepath="$PROJECT_DIR$/.idea/eurekaandbeyond.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library-client-microservices/library-client-microservices.iml" filepath="$PROJECT_DIR$/library-client-microservices/library-client-microservices.iml" />
       <module fileurl="file://$PROJECT_DIR$/library-data-microservices/library-data-microservices.iml" filepath="$PROJECT_DIR$/library-data-microservices/library-data-microservices.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library-service-microservices/library-service-microservices.iml" filepath="$PROJECT_DIR$/library-service-microservices/library-service-microservices.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library-service-registry-microservices/library-service-registry-microservices.iml" filepath="$PROJECT_DIR$/library-service-registry-microservices/library-service-registry-microservices.iml" />
     </modules>
   </component>
 </project>

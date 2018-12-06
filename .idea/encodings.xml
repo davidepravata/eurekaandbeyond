@@ -2,6 +2,10 @@
 <project version="4">
   <component name="Encoding" addBOMForNewFiles="with NO BOM">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/library-client-microservices" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/library-data-microservices" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/library-service-microservices" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/library-service-registry-microservices" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/library-service-registry-microservices" charset="UTF-8" />
   </component>
 </project>
