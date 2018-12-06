@@ -17,7 +17,7 @@ public class BookServiceClient {
     }
 
     public Book getBookById(String bookId) {
-        return rest.getForObject("http://library-service/book/{id}", Book.class, bookId);
+        return rest.getForObject("http://library-service/books/{id}", Book.class, bookId);
     }
 
     public Iterable<Book> getAllBooks() {
