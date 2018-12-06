@@ -1,6 +1,6 @@
 package library.client.resttemplate;
 
-import library.microservices.entities.Book;
+import entities.Book;
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;

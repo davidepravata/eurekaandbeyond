@@ -8,7 +8,6 @@
         <outputRelativeToContentRoot value="true" />
         <module name="library-client" />
         <module name="library-client-microservices" />
-        <module name="library-data-microservices" />
         <module name="library-service-microservices" />
         <module name="library-service-registry-microservices" />
       </profile>

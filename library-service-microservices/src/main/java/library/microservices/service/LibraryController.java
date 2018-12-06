@@ -1,7 +1,7 @@
 package library.microservices.service;
 
-import library.microservices.entities.Book;
 import org.springframework.web.bind.annotation.*;
+import entities.Book;
 
 import java.util.Optional;
 

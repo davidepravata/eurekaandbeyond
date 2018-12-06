@@ -9,7 +9,6 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>library-data-microservices</module>
         <module>library-service-registry-microservices</module>
         <module>library-client-microservices</module>
         <module>library-service-microservices</module>
