@@ -21,7 +21,7 @@ public class BookServiceClient {
     }
 
     public Iterable<Book> getAllBooks() {
-        Book[] books = rest.getForObject("http://library-service/ingredients", Book[].class);
+        Book[] books = rest.getForObject("http://library-service/books", Book[].class);
         return Arrays.asList(books);
     }
 }
