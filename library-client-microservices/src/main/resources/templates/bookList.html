@@ -1,0 +1,43 @@
+<html xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <title>BOOKS LIST:</title>
+    <link rel="stylesheet" th:href="@{/style.css}"></link>
+</head>
+
+<body>
+<h2>BOOKS LIST:</h2>
+<p>Below the list of available books:</p>
+
+<div th:unless="${#lists.isEmpty(books)}">
+    <table class="blueTable">
+        <thead>
+        <tr>
+            <th>Title</th>
+        </tr>
+        </thead>
+        <tbody>
+        <dl th:each="book : ${books}">
+            <tr>
+                <td><span th:text="${book.title}"></span></td>
+
+            </tr>
+        </dl>
+        </tbody>
+    </table>
+
+</div>
+<div th:if="${#lists.isEmpty(books)}">
+    <p>No books have been registered</p>
+</div>
+
+
+<table style="border-color: FFFFFF; background-color: #a3edff;">
+    <tbody>
+    <tr>
+        <td><a href="../books_list"></a></td>
+    </tr>
+    </tbody>
+</table>
+
+</body>
+</html>

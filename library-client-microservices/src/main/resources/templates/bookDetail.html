@@ -1,0 +1,42 @@
+<html xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <title>BOOK DETAILS:</title>
+    <link rel="stylesheet" th:href="@{/style.css}"></link>
+</head>
+
+<body>
+<h2>BOOK DETAILS</h2>
+
+<div>
+    <table class="blueTable">
+    <thead>
+    <tr>
+        <th>Id</th>
+        <th>Title</th>
+        <th>Cost</th>
+        <th>ISBN</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td><span th:text="${book.id}"></span></td>
+        <td><span th:text="${book.title}"></span></td>
+        <td><span th:text="${book.cost}"></span></td>
+        <td><span th:text="${book.isbn}"></span></td>
+    </tr>
+    </tbody>
+    </table>
+
+</div>
+
+
+<table style="border-color: FFFFFF; background-color: #a3edff;">
+    <tbody>
+        <tr>
+            <td><a href="../books_list"></a></td>
+        </tr>
+    </tbody>
+</table>
+
+</body>
+</html>
