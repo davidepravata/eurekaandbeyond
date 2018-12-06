@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/eurekaandbeyond.iml" filepath="$PROJECT_DIR$/.idea/eurekaandbeyond.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library-data-microservices/library-data-microservices.iml" filepath="$PROJECT_DIR$/library-data-microservices/library-data-microservices.iml" />
+    </modules>
+  </component>
+</project>
