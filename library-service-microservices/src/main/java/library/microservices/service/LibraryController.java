@@ -23,6 +23,6 @@ public class LibraryController {
 
     @GetMapping("/{id}")
     public Optional<Book> findById(@PathVariable String id) {
-        return bookRepository.findById(id);
+        return bookRepository.findById(Long.valueOf(id));
     }
 }

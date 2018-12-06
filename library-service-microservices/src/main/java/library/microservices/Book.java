@@ -1,5 +1,8 @@
-package entities;
+package library.microservices;
 
+import javax.persistence.Entity;
+
+@Entity
 public class Book {
 
     private long id;
