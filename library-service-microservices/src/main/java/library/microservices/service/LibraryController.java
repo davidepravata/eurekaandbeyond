@@ -1,5 +1,6 @@
 package library.microservices.service;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import library.microservices.Book;
 
@@ -12,6 +13,7 @@ public class LibraryController {
 
     private BookRepository bookRepository;
 
+    @Autowired
     private LibraryController(BookRepository bookRepository) {
         this.bookRepository = bookRepository;
     }

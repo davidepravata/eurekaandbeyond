@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import java.util.List;
 
 @Controller
-@RequestMapping("/books")
+@RequestMapping("/library")
 public class BookController {
 
     private BookServiceClient bookServiceClient;
@@ -23,12 +23,12 @@ public class BookController {
     @GetMapping
     public String booksList(Model model) {
         model.addAttribute("books", bookServiceClient.getAllBooks());
-        return "books";
+        return "bookList";
     }
 
     @GetMapping("/{id}")
     public String bookDetailPage(@PathVariable("id") String id, Model model) {
-        model.addAttribute("books", bookServiceClient.getBookById(id));
+        model.addAttribute("book", bookServiceClient.getBookById(id));
         return "bookDetail";
     }
 }

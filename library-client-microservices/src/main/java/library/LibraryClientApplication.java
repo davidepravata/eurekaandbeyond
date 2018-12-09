@@ -13,7 +13,7 @@ public class LibraryClientApplication implements WebMvcConfigurer {
 
     @Override
     public void addViewControllers(ViewControllerRegistry registry) {
-        registry.addRedirectViewController("/", "/bookList");
+        registry.addRedirectViewController("/", "/library");
     }
 
 }

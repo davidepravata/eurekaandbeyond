@@ -1,5 +1,6 @@
 package library.client.resttemplate;
 
+import org.springframework.boot.CommandLineRunner;
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -14,4 +15,15 @@ public class RestTemplateConfig {
     @LoadBalanced
     public RestTemplate restTemplate() {
         return new RestTemplate();
-    }}
+    }
+
+    @Bean
+    public CommandLineRunner startup() {
+        return args -> {
+            log.info("**************************************");
+            log.info("    Configuring with RestTemplate");
+            log.info("**************************************");
+        };
+    }
+
+}

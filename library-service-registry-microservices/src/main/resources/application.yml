@@ -11,3 +11,4 @@ eureka:
             defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
     server:
         enable-self-preservation: false
+        waitTimeInMsWhenSyncEmpty: 0
